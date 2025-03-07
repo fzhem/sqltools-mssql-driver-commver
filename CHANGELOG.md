@@ -1,3 +1,6 @@
+### 0.6.3
+- Support electron 34
+
 ### 0.6.2
 - Support vscode versions >= 1.91.0, no need to set sqltools.useNodeRuntime now!
 
