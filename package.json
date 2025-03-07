@@ -2,7 +2,7 @@
   "name": "sqltools-driver-mssql-commver",
   "displayName": "SQLTools Microsoft SQL Server/Azure+",
   "description": "SQLTools Microsoft SQL Server/Azure+",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -62,22 +62,22 @@
   "dependencies": {
     "@sqltools/base-driver": "latest",
     "@sqltools/types": "latest",
-    "msnodesqlv8": "^4.4.0",
+    "msnodesqlv8": "^4.5.0",
     "mssql": "^11.0.1",
-    "uuid": "^11.0.3"
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.13",
-    "@types/mssql": "^9.1.5",
+    "@types/lodash": "^4.17.16",
+    "@types/mssql": "^9.1.7",
     "@types/uuid": "^10.0.0",
     "@types/vscode": "^1.91.0",
-    "@vscode/vsce": "^3.2.1",
-    "concurrently": "^9.1.0",
+    "@vscode/vsce": "^3.2.2",
+    "concurrently": "^9.1.2",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.0",
     "lodash": "^4.17.21",
     "rimraf": "^6.0.1",
     "tar": "^7.4.3",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.2"
   }
 }
