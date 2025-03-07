@@ -5,7 +5,7 @@ const tar = require('tar');
 
 // Define parameters
 const supportedNodeVersions = [115, 120, 127, 131];
-const supportedElectronVersions = [121, 123, 125, 128];
+const supportedElectronVersions = [121, 123, 125, 128, 132];
 
 // Read the package.json file
 const packageJsonPath = path.join(__dirname, 'package.json');
