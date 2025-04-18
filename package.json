@@ -74,7 +74,7 @@
     "@vscode/vsce": "^3.3.2",
     "concurrently": "^9.1.2",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.25.2",
+    "esbuild": "^0.25.0",
     "lodash": "^4.17.21",
     "rimraf": "^6.0.1",
     "tar": "^7.4.3",
