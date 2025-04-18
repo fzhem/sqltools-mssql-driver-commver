@@ -14,3 +14,5 @@ tsconfig.js
 .babel*
 node_modules/
 !node_modules/msnodesqlv8
+!node_modules/ssh2
+!node_modules/cpu-features
