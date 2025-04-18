@@ -71,13 +71,13 @@
     "@types/mssql": "^9.1.7",
     "@types/uuid": "^10.0.0",
     "@types/vscode": "^1.91.0",
-    "@vscode/vsce": "^3.2.2",
+    "@vscode/vsce": "^3.3.2",
     "concurrently": "^9.1.2",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.25.2",
     "lodash": "^4.17.21",
     "rimraf": "^6.0.1",
     "tar": "^7.4.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   }
 }
