@@ -1,3 +1,6 @@
+### 0.6.4
+- Remove Azure and Microsoft logo due to DMCA compliance
+
 ### 0.6.3
 - Support electron 34
 
