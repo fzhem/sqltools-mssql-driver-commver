@@ -17,3 +17,4 @@ node_modules/
 !node_modules/ssh2
 !node_modules/cpu-features
 !node_modules/asn1
+!node_modules/bcrypt-pbkdf
