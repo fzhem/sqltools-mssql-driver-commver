@@ -8,7 +8,7 @@ const utilModule = ((() => {
   const platform = process.platform; // Platform (e.g., 'win32', 'linux')
   const arch = process.arch; // Architecture (e.g., 'x64', 'arm64')
 
-  const supportedVersions = [132, 131, 128, 127, 125, 123, 121, 120, 115];
+  const supportedVersions = [133, 132, 131, 128, 127, 125, 123, 121, 120, 115];
 
   // Find the highest supported version that is <= moduleVersion
   const folderVersion = supportedVersions.find(version => moduleVersion >= version);
