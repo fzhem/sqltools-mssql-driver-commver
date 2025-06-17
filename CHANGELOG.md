@@ -1,3 +1,7 @@
+### 0.6.5
+- Support electron 35
+- Update display name due to Trademark violation
+
 ### 0.6.4
 - Remove Azure and Microsoft logo due to DMCA compliance
 
