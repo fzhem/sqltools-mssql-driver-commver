@@ -1,5 +1,5 @@
 import { IDriverAlias } from '@sqltools/types';
 
 export const DRIVER_ALIASES: IDriverAlias[] = [
-  { displayName: 'SQL Server/Azure+', value: 'SQL Server/Azure+'},
+  { displayName: 'SQL Server/Azure', value: 'SQL Server/Azure'},
 ];
