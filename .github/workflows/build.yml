@@ -3,7 +3,7 @@ name: Package Extension
 on:
   push:
     branches:
-      - dev
+      - '**'
 
 jobs:
   once:
