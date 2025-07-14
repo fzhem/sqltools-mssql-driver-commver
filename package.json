@@ -62,7 +62,7 @@
   "dependencies": {
     "@sqltools/base-driver": "latest",
     "@sqltools/types": "latest",
-    "msnodesqlv8": "^4.5.0",
+    "msnodesqlv8": "^5.1.1",
     "mssql": "^11.0.1",
     "uuid": "^11.1.0"
   },
