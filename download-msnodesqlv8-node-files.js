@@ -4,8 +4,8 @@ const path = require('path');
 const tar = require('tar');
 
 // Define parameters
-const supportedNodeVersions = [115, 120, 127, 131];
-const supportedElectronVersions = [121, 123, 125, 128, 132, 133];
+const supportedNodeVersions = [127, 131, 137];
+const supportedElectronVersions = [123, 125, 128, 132, 133, 135];
 
 // Read the package.json file
 const packageJsonPath = path.join(__dirname, 'package.json');
@@ -83,10 +83,10 @@ const processVersions = async (versions, type) => {
       console.log(`Extracting ${fileName} to ${tempExtractDir}`);
       await extractTarGz(filePath, tempExtractDir);
 
-      // Copy the extracted sqlserverv8.node file to the target directory
-      const extractedFilePath = path.join(tempExtractDir, 'build', 'Release', 'sqlserverv8.node');
+      // Copy the extracted sqlserver.node file to the target directory
+      const extractedFilePath = path.join(tempExtractDir, 'build', 'Release', 'sqlserver.node');
       const targetDir = path.join(targetBaseDir, `v${moduleVersion}`);
-      const targetFilePath = path.join(targetDir, 'sqlserverv8.node');
+      const targetFilePath = path.join(targetDir, 'sqlserver.node');
 
       // Create target directory if it doesn't exist
       if (!fs.existsSync(targetDir)) {
@@ -95,7 +95,7 @@ const processVersions = async (versions, type) => {
 
       // Copy the node file to the target directory
       fs.copyFileSync(extractedFilePath, targetFilePath);
-      console.log(`Copied sqlserverv8.node to ${targetFilePath}`);
+      console.log(`Copied sqlserver.node to ${targetFilePath}`);
 
       // Clean up temporary files
       fs.rmSync(tempExtractDir, { recursive: true, force: true });
