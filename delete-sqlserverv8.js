@@ -3,7 +3,7 @@ const path = require('path');
 
 // Path to the directory containing the target file
 const targetDir = path.join(__dirname, 'node_modules', 'msnodesqlv8', 'build', 'Release');
-const targetFile = path.join(targetDir, 'sqlserverv8.node');
+const targetFile = path.join(targetDir, 'sqlserver.node');
 
 // Function to delete the file if it exists
 const deleteSqlServerNode = () => {
