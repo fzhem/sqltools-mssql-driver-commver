@@ -35,7 +35,7 @@ jobs:
         run: node download-msnodesqlv8-node-files.js
 
       - name: Delete redundant sqlserver.node file
-        run : node delete-sqlserver.js
+        run : node delete-sqlserverv8.js
       
       - name: Copy util file
         run: node copy-util-file.js
@@ -111,7 +111,7 @@ jobs:
         run: node download-msnodesqlv8-node-files.js
 
       - name: Delete redundant sqlserver.node file
-        run : node delete-sqlserver.js
+        run : node delete-sqlserverv8.js
       
       - name: Copy util file
         run: node copy-util-file.js
