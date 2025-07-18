@@ -7,7 +7,7 @@ This is a fork of the [Microsoft SQL Server/Azure](https://github.com/mtxr/vscod
 ### ⚠️ Module did not self-register error when connecting ⚠️ :
 - This happens when you are on an unsupported node/vscode version.
 - Install latest [Node LTS version](https://nodejs.org/en)
-    - Node versions >= 20 are supported
+    - Node versions >= 22 are supported
 - Set `sqltools.useNodeRuntime` to `true` in settings.
 
 ## Features and Fixes

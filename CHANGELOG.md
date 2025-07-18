@@ -1,3 +1,8 @@
+### 0.6.6
+- Update msnodesqlv8
+- Up minimum node abi to 127 (22.0.0)
+- Up minimum electron abi to 123 (31.0.0-alpha.1)
+
 ### 0.6.5
 - Support electron 35
 - Update display name due to trademark violation
