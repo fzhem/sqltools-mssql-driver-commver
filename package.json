@@ -69,7 +69,6 @@
   "devDependencies": {
     "@types/lodash": "^4.17.20",
     "@types/mssql": "^9.1.8",
-    "@types/uuid": "^11.0.0",
     "@types/vscode": "^1.94.0",
     "@vscode/vsce": "^3.6.2",
     "concurrently": "^9.2.1",
