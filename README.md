@@ -1,6 +1,6 @@
-# SQLTools MSSQL/Azure Driver
+# SQLTools MSSQL Driver
 
-This is a fork of the [Microsoft SQL Server/Azure](https://github.com/mtxr/vscode-sqltools/tree/dev/packages/driver.mssql) Official driver with Windows Authentication support.
+This is a fork of the [SQLTools MSSQL Driver](https://github.com/mtxr/vscode-sqltools/tree/dev/packages/driver.mssql) with Windows Authentication support.
 
 *This includes both the tedious driver (part of the Official driver) and the msnodesqlv8 driver, the latter of which introduces **Windows Authentication** support.*
 
