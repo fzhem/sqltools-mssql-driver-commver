@@ -2,7 +2,7 @@
   "name": "sqltools-driver-mssql-commver",
   "displayName": "SQLTools SQL Server Community Ver",
   "description": "SQLTools SQL Server Community Ver",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "engines": {
     "vscode": "^1.94.0"
   },

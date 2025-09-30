@@ -1,3 +1,7 @@
+### 0.6.7
+- Update branding to comply with Microsoft trademark guidelines: remove azure wording
+- Update node packages
+
 ### 0.6.6
 - Update msnodesqlv8
 - Up minimum node abi to 127 (22.0.0)
