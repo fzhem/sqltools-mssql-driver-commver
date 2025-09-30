@@ -4,7 +4,7 @@
   "description": "SQLTools SQL Server Community Ver",
   "version": "0.6.6",
   "engines": {
-    "vscode": "^1.91.0"
+    "vscode": "^1.94.0"
   },
   "publisher": "fzhem",
   "license": "MIT",
@@ -63,21 +63,21 @@
     "@sqltools/base-driver": "latest",
     "@sqltools/types": "latest",
     "msnodesqlv8": "^5.1.1",
-    "mssql": "^11.0.1",
-    "uuid": "^11.1.0"
+    "mssql": "^12.0.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.20",
-    "@types/mssql": "^9.1.7",
-    "@types/uuid": "^10.0.0",
-    "@types/vscode": "^1.91.0",
-    "@vscode/vsce": "^3.3.2",
-    "concurrently": "^9.2.0",
-    "cross-env": "^7.0.3",
-    "esbuild": "^0.25.6",
+    "@types/mssql": "^9.1.8",
+    "@types/uuid": "^11.0.0",
+    "@types/vscode": "^1.94.0",
+    "@vscode/vsce": "^3.6.2",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "esbuild": "^0.25.10",
     "lodash": "^4.17.21",
     "rimraf": "^6.0.1",
-    "tar": "^7.4.3",
-    "typescript": "^5.8.3"
+    "tar": "^7.5.1",
+    "typescript": "^5.9.2"
   }
 }
